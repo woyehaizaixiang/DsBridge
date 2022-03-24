@@ -1,4 +1,4 @@
-library js_bridge_util;
+library ds_bridge;
 
 import 'dart:convert';
 
@@ -21,7 +21,6 @@ class DsBridge {
 
   void callBack (String params) {
     String code = '$callBackCode("$params")';
-    print('$code');
     flutterWebViewPlugin.evalJavascript('$code');
   }
 

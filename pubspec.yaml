@@ -1,4 +1,4 @@
-name: js_bridge_util
+name: ds_bridge
 description: webview和H5交互工具包
 version: 0.0.1
 homepage: https://github.com/woyehaizaixiang/JsBridgeUtil
