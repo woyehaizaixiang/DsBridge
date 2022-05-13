@@ -20,7 +20,7 @@ class DsBridge {
   }
 
   void callBack (String params) {
-    String code = '$callBackCode("$params")';
+    String code = "$callBackCode('$params')";
     flutterWebViewPlugin.evalJavascript('$code');
   }
 

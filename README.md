@@ -9,7 +9,7 @@ A new Flutter package project.
 ## 配置依赖包
 ```
 dependencies:
-  ds_bridge: ^0.0.1
+  ds_bridge: ^0.0.2
 ```
 
 ## 例子
