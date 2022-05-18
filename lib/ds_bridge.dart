@@ -7,7 +7,7 @@ class DsBridge {
   String callBackCode = '';
   DsBridge(this.flutterWebViewPlugin);
 
-  Result dispatch (String jsonStr) {
+  Result dispatch(String jsonStr) {
     Map jsonData = jsonDecode(jsonStr);
     String method = jsonData['method'];
     String data = jsonData['data'];
@@ -19,11 +19,10 @@ class DsBridge {
     return result;
   }
 
-  void callBack (String params) {
+  void callBack(String params) {
     String code = "$callBackCode('$params')";
     flutterWebViewPlugin.evalJavascript('$code');
   }
-
 }
 
 class Result {

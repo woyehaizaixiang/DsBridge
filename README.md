@@ -5,11 +5,13 @@ A new Flutter package project.
 ## 说明
 此包是[flutter_webview_plugin](https://pub.flutter-io.cn/packages/flutter_webview_plugin)webview与网页交互的工具包
 
+## 建议
+因```flutter_webview_plugin```已不再维护，推荐使用[webview_flutter](https://pub.flutter-io.cn/packages/webview_flutter)和对应的[ds_bridge_webview](https://pub.flutter-io.cn/packages/ds_bridge_webview)
 
 ## 配置依赖包
 ```
 dependencies:
-  ds_bridge: ^0.0.2
+  ds_bridge: ^0.0.3
 ```
 
 ## 例子
